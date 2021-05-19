@@ -1,0 +1,224 @@
+@media (max-width: 1200px) {
+  .menu .menu_item {
+    padding-right: 27px;
+  }
+  .menu .menu_item a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .promo .promo_header {
+    font-size: 50px;
+  }
+
+  .reason .reason_wrapper {
+    justify-content: center;
+  }
+
+  .condition .condition_wrapper {
+    justify-content: flex-start;
+  }
+
+  .condition .condition_wrapper .condition_item:nth-child(4), .condition .condition_wrapper .condition_item:nth-child(3)  {
+    margin-top: 0;
+  }
+
+  .choice .choice_img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+
+  .hamburger.hamburger_active span:first-child {
+   transform: translateY(3px) rotate(-45deg);
+  }
+
+  .hamburger.hamburger_active span:nth-child(2) {
+   display: none;
+  }
+  .hamburger.hamburger_active span:last-child {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  .hamburger.hamburger_active span {
+    margin-bottom: -2px;
+  }
+
+  .menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0,0,0, .8);
+    transition: 0.6s all;
+  }
+
+  .menu.menu_active {
+    left: 0;
+  }
+
+  .menu .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu .menu_item .menu_link {
+    font-size: 20px;
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .promo {
+    min-height: 340px;
+    padding-bottom: 32px;
+  }
+
+  .promo .promo_descr {
+    display: none;
+  }
+
+  .promo .promo_header {
+    margin-top: 53px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .promo .promo_subheader {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .reason {
+    padding: 22px 0 50px 0;
+  }
+
+  .reason .reason_main_title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  .reason .reason_wrapper .reason_item {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reason .reason_wrapper .reason_item .reason_round {
+    margin: 0 0 27px 0;
+  }
+
+  .reason .reason_wrapper .reason_item .reason_descr {
+    width: 100%;
+  }
+
+  .mobile .mobile_main_title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  .mobile .mobile_main_descr {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+  }
+
+  .mobile .mobile_wrapper .mobile_item .mobile_text {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .choice {
+    background-color: #070716;
+    min-height: 390px;
+  }
+
+  .choice .choice_main_title, .choice .choice_main_descr {
+    display: none;
+  }
+
+  .choice .choice_text {
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+
+  .condition .condition_main_title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  .condition .condition_wrapper .condition_item .item_descr {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .condition .condition_wrapper .condition_item .item_title_blue, .condition .condition_wrapper .condition_item .item_title_red {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1ca8c3;
+  }
+
+  .condition .condition_wrapper .condition_item .item_list_blue li, .condition .condition_wrapper .condition_item .item_list_red li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #222222;
+  }
+
+  .condition .condition_wrapper .condition_item:nth-child(1), .condition .condition_wrapper .condition_item:nth-child(3){
+    margin-right: 0;
+  }
+
+  .map .title_main_map {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .menu .menu_item .menu_link {
+    font-size: 10px;
+  }
+}
