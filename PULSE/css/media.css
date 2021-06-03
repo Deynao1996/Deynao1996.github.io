@@ -1,0 +1,99 @@
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+
+  .promo .header .header__official {
+    display: none;
+  }
+
+  .container {
+    max-width: 500px;
+  }
+
+  .promo .promo__header {
+    font-size: 25px;
+  }
+
+  .promo .promo__icons {
+    width: 318px;
+  }
+
+  .promo .promo__wrapper .promo__link {
+    display: none;
+  }
+
+  .advantages .advantages__header {
+    font-size: 22px;
+  }
+
+  .advantages .advantages__icons .advantages__icon .advantages__title {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .advantages .advantages__icons .advantages__icon .advantages__subtitle {
+    font-size: 11px;
+  }
+
+  .consultation .consultation__title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .consultation .consultation__descr {
+    text-align: center;
+  }
+
+  .consultation .feed-form {
+    margin: 0 auto;
+  }
+
+  .carousel .carousel__slider .carousel__wrapper {
+    width: 400px;
+  }
+
+  .carousel .carousel__slider .carousel__wrapper .carousel__inner .carousel__slide img {
+    width: 400px;
+  }
+
+  .catalog .catalog__tabs {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .catalog .catalog__tabs .catalog__tab {
+    margin-top: 20px;
+  }
+
+  .catalog .catalog__descr.catalog__descr_active .catalog__item {
+    width: 250px;
+    height: 460px;
+    margin-top: 20px;
+  }
+
+  .button.button_tab {
+    width: 110px;
+    right: 10px;
+  }
+
+  .catalog .catalog__descr.catalog__descr_active .catalog__item .catalog__item-wrapper .catalog__content-hide {
+    height: 362px;
+  }
+
+  .catalog .catalog__descr.catalog__descr_active .catalog__item .catalog__item-wrapper .catalog__content-hide .button_show {
+    margin-top: 26px;
+  }
+
+  .overlay .modal.modal_position {
+    margin-top: 40px;
+  }
+
+  .overlay .overlay__btn {
+    top: 40px;
+    right: 60px;
+  }
+}
