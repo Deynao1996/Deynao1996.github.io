@@ -1,0 +1,36 @@
+.percent {
+  min-height: 290px;
+  padding-bottom: 126px;
+}
+
+.percent .percent__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.percent .percent__wrapper .percent__item {
+  width: 350px;
+}
+
+.percent .percent__wrapper .percent__item .title_percent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.percent .percent__wrapper .percent__item .item__panel {
+  width: 350px;
+  height: 14px;
+  background: #E8E4DE;
+  border-radius: 4px;
+  position: relative;
+  margin: 21px 0 38px 0;
+}
+
+.percent .percent__wrapper .percent__item .item__panel .item__inner {
+  position: absolute;
+  width: 100%;
+  height: 14px;
+  background: var(--main-color);
+  border-radius: 4px;
+}

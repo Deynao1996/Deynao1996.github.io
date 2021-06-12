@@ -1,0 +1,29 @@
+@import "animations.css";
+@import "fonts.css";
+@import "var.css";
+@import "blocks/header.css";
+@import "blocks/title.css";
+@import "blocks/button.css";
+@import "blocks/menu.css";
+@import "blocks/about.css";
+@import "blocks/header__socials.css";
+@import "blocks/benefit.css";
+@import "blocks/use.css";
+@import "blocks/percent.css";
+@import "blocks/project.css";
+@import "blocks/price.css";
+@import "blocks/contact.css";
+@import "media.css";
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}

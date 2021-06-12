@@ -1,0 +1,24 @@
+.price {
+  min-height: 400px;
+  padding-bottom: 126px;
+}
+
+.price .price__wrapper {
+  margin-top: 91px;
+  margin-left: 75px;
+  display: grid;
+  grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 340px);
+  gap: 15px 331px;
+}
+
+.price .price__wrapper .price__item .title_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price .price__wrapper .price__item .item__text {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+}

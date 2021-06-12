@@ -1,0 +1,73 @@
+.about {
+  min-height: 720px;
+  padding: 120px 0 120px 0;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.about__content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about__content .about__logo {
+  margin-right: 70px;
+}
+
+.about__content .about__descr {
+  margin-top: 6px;
+}
+
+.about .about__content .about__descr .about__text {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.about .about__content .about__descr .about__wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about .about__content .about__descr .about__wrapper .about__item {
+  width: 200px;
+  margin: 0 0 20px 56px;
+  position: relative;
+  z-index: 1;
+}
+
+.about .about__content .about__descr .about__wrapper .about__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -57px;
+  width: 36px;
+  height: 36px;
+  background: var(--main-color);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.about .about__content .about__descr .about__wrapper .about__item::before:first-child {
+  background: black;
+}
+
+.about .about__content .about__descr .about__wrapper .about__item .item__title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+
+.about .about__content .about__descr .about__wrapper .about__item .item__descr {
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.about img {
+
+
+}
