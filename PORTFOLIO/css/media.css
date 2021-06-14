@@ -1,0 +1,666 @@
+@media (max-width: 1439px) {
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header__socials {
+      display: none;
+    }
+
+    .about .about__content .about__descr .subtitle_about {
+      font-size: 40px;
+    }
+
+    .benefit .title_benefit::before, .use .title_use::before, .project .title_project::before, .price .title_price::before {
+      left: 48%;
+    }
+
+    .benefit .subtitle_benefit::after, .use .subtitle_use::after, .project .subtitle_project::after, .price .subtitle_price::after {
+      left: 47%;
+    }
+
+    .use .use__wrapper {
+      grid-template-columns: repeat(auto-fit, 270px);
+      justify-content: space-around;
+      grid-gap: unset;
+      grid-row-gap: 20px;
+    }
+
+    .project .project__wrapper {
+      grid-template-areas: unset;
+      grid-template: repeat(auto-fit, 280px) / repeat(auto-fit, 280px);
+      justify-content: space-around;
+      grid-row-gap: 20px;
+    }
+
+    .project .project__wrapper .project__item:nth-child(1), .project .project__wrapper .project__item:nth-child(2), .project .project__wrapper .project__item:nth-child(3), .project .project__wrapper .project__item:nth-child(4), .project .project__wrapper .project__item:nth-child(5), .project .project__wrapper .project__item:nth-child(6) {
+      grid-area: unset;
+    }
+
+    .project .project__wrapper .project__item .item__link .item__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .price .price__wrapper {
+      grid-template: repeat(auto-fit, 45px) / repeat(auto-fit, 340px);
+      justify-content: center;
+      grid-column-gap: 0px;
+    }
+
+    .contact .about__content .about__descr .contact__form input {
+      margin-bottom: 15px;
+    }
+
+    .contact .about__content .about__descr .contact__form label:nth-child(6) {
+      top: 33%;
+    }
+
+    .contact .about__content .about__descr .contact__form label:nth-child(4) {
+      left: 3%;
+      top: calc(11% + 1px);
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid {
+      justify-content: space-between;
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid #checkbox {
+      margin: 0;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .about .about__content .about__descr .subtitle_about {
+      font-size: 21px;
+    }
+
+    .benefit .title_benefit::before, .use .title_use::before, .project .title_project::before, .price .title_price::before {
+      left: calc(47% + 2px);
+    }
+
+    .benefit .subtitle_benefit::after, .use .subtitle_use::after, .project .subtitle_project::after, .price .subtitle_price::after {
+      left: 46%;
+    }
+
+    .benefit .benefit__wrapper .benefit__left, .benefit .benefit__wrapper .benefit__right {
+    width: 309px;
+    }
+
+    .price .price__wrapper {
+    margin-left: 42px;
+    }
+
+    .about__content .about__descr {
+    width: 300px;
+    }
+
+    .contact .about__content .about__descr .contact__form textarea {
+      margin-top: 0;
+      width: 280px;
+    }
+
+    .contact .about__content .about__descr .contact__form input {
+      margin-bottom: 30px;
+    }
+
+    .contact .about__content .about__descr .contact__form label:nth-child(4) {
+      left: 19px;
+      top: 63px;
+    }
+
+    .contact .about__content .about__descr .contact__form label:nth-child(6) {
+      top: 138px;
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid {
+      display: grid;
+      width: 100%;
+      grid-template: repeat(2, 45px) / repeat(2, auto);
+      grid-gap: 10px;
+      margin: 0;
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid .button_submit {
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+      justify-self: center;
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid #checkbox {
+      grid-column: 1 / 2;
+      align-self: center;
+      margin: 0;
+    }
+
+    .contact .about__content .about__descr .contact__form .contact__valid label {
+      grid-column: 2 / 3;
+      font-size: 12px;
+      align-self: center;
+    }
+
+    .contact .about__content .about__descr .subtitle_about {
+      font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header {
+      background-position: center;
+      padding: 206px 0 247px 0;
+      background: url("../img/mobile_bg.png") no-repeat 50%/cover;;
+    }
+
+    .header .subtitle {
+      width: 100%;
+      height: auto;
+      font-size: 26px;
+      line-height: 39px;
+      margin-bottom: 32px;
+    }
+
+
+    .about {
+      padding-top: 40px;
+      padding: 40px 0 46px 0;
+    }
+
+    .about .about__content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about .about__content .about__logo {
+      margin: 0;
+    }
+
+    .about .about__content .about__logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about .about__content .about__descr h2 {
+      margin: 46px 0 0 20px;
+    }
+
+    .about .about__content .about__descr .subtitle_about {
+      font-size: 24px;
+      margin-top: 26px;
+      line-height: 36px;
+    }
+
+    .about .about__content .about__descr .subtitle_about::after {
+      top: 38px;
+    }
+
+    .about .about__content .about__descr .about__text {
+      margin-top: 35px;
+    }
+
+    .about .about__content .about__descr .about__wrapper {
+      margin-top: 20px;
+    }
+
+    .benefit {
+      padding-bottom: 46px;
+    }
+
+    .benefit .title_benefit::before, .use .title_use::before, .project .title_project::before, .price .title_price::before {
+      left: calc(46% + 1px);
+    }
+
+    .benefit .subtitle_benefit, .use .subtitle_use, .project .subtitle_project {
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 26px;
+    }
+
+    .benefit .subtitle_benefit::after, .use .subtitle_use::after, .project .subtitle_project::after, .price .subtitle_price::after {
+      top: 130%;
+      left: calc(44% + 1px);
+    }
+
+    .benefit .benefit__wrapper {
+      margin-top: 55px;
+      margin-left: 45px;
+      flex-direction: column;
+    }
+
+    .benefit .benefit__wrapper .benefit__left, .benefit .benefit__wrapper .benefit__right {
+      max-width: 250px;
+    }
+
+    .benefit .benefit__wrapper .benefit__left .benefit__item .item__descr, .benefit .benefit__wrapper .benefit__right .benefit__item .item__descr {
+      margin-top: 10px;
+    }
+
+    .benefit .benefit__wrapper .benefit__left .benefit__title {
+      margin-bottom: 45px;
+    }
+
+    .benefit .benefit__wrapper .benefit__left .benefit__item, .benefit .benefit__wrapper .benefit__right .benefit__item {
+      margin: 0;
+      margin-bottom: 7px;
+    }
+
+    .benefit .benefit__wrapper .benefit__right .benefit__title {
+      margin-top: 40px;
+      margin-bottom: 45px;
+    }
+
+    .benefit .benefit__wrapper .benefit__left .benefit__item::after, .benefit .benefit__wrapper .benefit__right .benefit__item::after {
+      height: 205px;
+      top: -52px;
+    }
+
+    .benefit .benefit__wrapper .benefit__left .benefit__title::after, .benefit .benefit__wrapper .benefit__right .benefit__title::after {
+      top: 8px;
+    }
+
+
+    .use {
+      padding-bottom: 48px;
+    }
+
+    .use .use__wrapper {
+      margin-top: 40px;
+      grid-template: repeat(7, minmax(270px, auto)) / 1fr;
+      grid-gap: 20px;
+    }
+
+    .percent {
+      padding-bottom: 47px;
+    }
+
+    .percent .percent__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .percent .percent__wrapper .percent__item {
+      max-width: 300px;
+    }
+
+    .percent .percent__wrapper .percent__item .item__panel {
+      width: 100%;
+    }
+
+    .percent .percent__wrapper .percent__item .title_percent::before {
+      left: -3px;
+    }
+
+
+    .project {
+      padding-bottom: 46px;
+    }
+
+    .project .project__wrapper {
+      margin-top: 55px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 280px);
+      grid-auto-rows: 280px;
+      grid-gap: 20px;
+      grid-template-areas:
+            "first"
+           "second"
+           "third"
+           "fourth"
+            "fifth"
+            "sixth"
+    }
+
+    .project .project__wrapper .project__item .item__link .item__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    .price {
+      padding-bottom: 46px;
+    }
+
+    .price .subtitle_price::after {
+      top: 15px;
+    }
+
+    .price .price__wrapper {
+      margin-top: 41px;
+      margin-left: 0;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 60px);
+      grid-gap: 20px;
+      grid-column: 0;
+    }
+
+    .price .price__wrapper .price__item .title_item {
+      font-size: 14px;
+    }
+
+    .price .price__wrapper .price__item {
+      padding-left: 25px;
+    }
+
+
+
+    .contact {
+      padding-bottom: 50px;
+    }
+
+    .contact .about__content {
+      justify-content: center;
+    }
+
+    .contact .about__content .about__logo {
+      display: none;
+    }
+
+    .contact .about__content .about__descr .subtitle_about {
+      font-size: 24px;
+      margin-bottom: 35px;
+    }
+
+    .contact .about__content .about__descr .contact__text {
+      margin-top: 0;
+      max-width: 280px;
+    }
+
+    .contact .about__content .about__descr .contact__socials {
+      margin-bottom: 20px;
+    }
+
+
+    .menu {
+      width: 250px;
+      padding-top: 8px;
+      padding-bottom: 0;
+    }
+
+    .menu .menu__cross {
+      margin-left: 207px;
+    }
+
+    .menu .menu__list {
+      margin-top: 87px;
+    }
+
+    .menu .menu__list .menu__item {
+      margin-left: 47px;
+      padding-left: 9px;
+    }
+
+    .menu .menu__socials {
+      margin-top: 70px;
+    }
+}
+
+@media (max-width: 577px) {
+
+  .container {
+    max-width: 300px;
+  }
+
+  .header__socials {
+    display: none;
+  }
+
+  .header {
+    background-position: center;
+    padding: 206px 0 247px 0;
+    background: url("../img/mobile_bg.png") no-repeat 50%/cover;;
+  }
+
+  .header .subtitle {
+    width: 100%;
+    height: auto;
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 32px;
+  }
+
+
+  .about {
+    padding-top: 40px;
+    padding: 40px 0 46px 0;
+  }
+
+  .about .about__content {
+    flex-direction: column;
+  }
+
+  .about .about__content .about__logo {
+    margin: 0;
+  }
+
+  .about .about__content .about__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about .about__content .about__descr h2 {
+    margin: 46px 0 0 20px;
+  }
+
+  .about .about__content .about__descr .subtitle_about {
+    font-size: 24px;
+    margin-top: 26px;
+    line-height: 36px;
+  }
+
+  .about .about__content .about__descr .subtitle_about::after {
+    top: 38px;
+  }
+
+  .about .about__content .about__descr .about__text {
+    margin-top: 35px;
+  }
+
+  .about .about__content .about__descr .about__wrapper {
+    margin-top: 20px;
+  }
+
+  .benefit {
+    padding-bottom: 46px;
+  }
+
+  .benefit .title_benefit::before, .use .title_use::before, .project .title_project::before, .price .title_price::before {
+    left: 44%;
+  }
+
+  .benefit .subtitle_benefit, .use .subtitle_use, .project .subtitle_project {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 26px;
+  }
+
+  .benefit .subtitle_benefit::after, .use .subtitle_use::after, .project .subtitle_project::after, .price .subtitle_price::after {
+    top: 130%;
+    left: 41%;
+  }
+
+  .benefit .benefit__wrapper {
+    margin-top: 55px;
+    margin-left: 45px;
+    flex-direction: column;
+  }
+
+  .benefit .benefit__wrapper .benefit__left, .benefit .benefit__wrapper .benefit__right {
+    max-width: 250px;
+  }
+
+  .benefit .benefit__wrapper .benefit__left .benefit__item .item__descr, .benefit .benefit__wrapper .benefit__right .benefit__item .item__descr {
+    margin-top: 10px;
+  }
+
+  .benefit .benefit__wrapper .benefit__left .benefit__title {
+    margin-bottom: 45px;
+  }
+
+  .benefit .benefit__wrapper .benefit__left .benefit__item, .benefit .benefit__wrapper .benefit__right .benefit__item {
+    margin: 0;
+    margin-bottom: 7px;
+  }
+
+  .benefit .benefit__wrapper .benefit__right .benefit__title {
+    margin-top: 40px;
+    margin-bottom: 45px;
+  }
+
+  .benefit .benefit__wrapper .benefit__left .benefit__item::after, .benefit .benefit__wrapper .benefit__right .benefit__item::after {
+    height: 205px;
+    top: -52px;
+  }
+
+  .benefit .benefit__wrapper .benefit__left .benefit__title::after, .benefit .benefit__wrapper .benefit__right .benefit__title::after {
+    top: 8px;
+  }
+
+
+  .use {
+    padding-bottom: 48px;
+  }
+
+  .use .use__wrapper {
+    margin-top: 40px;
+    grid-template: repeat(7, minmax(270px, auto)) / 1fr;
+    grid-gap: 20px;
+  }
+
+  .percent {
+    padding-bottom: 47px;
+  }
+
+  .percent .percent__wrapper {
+    flex-direction: column;
+  }
+
+  .percent .percent__wrapper .percent__item {
+    max-width: 300px;
+  }
+
+  .percent .percent__wrapper .percent__item .item__panel {
+    width: 100%;
+  }
+
+  .percent .percent__wrapper .percent__item .title_percent::before {
+    left: -3px;
+  }
+
+
+  .project {
+    padding-bottom: 46px;
+  }
+
+  .project .project__wrapper {
+    margin-top: 55px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 280px);
+    grid-auto-rows: 280px;
+    grid-gap: 20px;
+    grid-template-areas:
+          "first"
+         "second"
+         "third"
+         "fourth"
+          "fifth"
+          "sixth"
+  }
+
+  .project .project__wrapper .project__item .item__link .item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .price {
+    padding-bottom: 46px;
+  }
+
+  .price .subtitle_price::after {
+    top: 15px;
+  }
+
+  .price .price__wrapper {
+    margin-top: 41px;
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 60px);
+    grid-gap: 20px;
+    grid-column: 0;
+  }
+
+  .price .price__wrapper .price__item .title_item {
+    font-size: 14px;
+  }
+
+  .price .price__wrapper .price__item {
+    padding-left: 25px;
+  }
+
+
+
+  .contact {
+    padding-bottom: 50px;
+  }
+
+  .contact .about__content .about__logo {
+    display: none;
+  }
+
+  .contact .about__content .about__descr .subtitle_about {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .contact .about__content .about__descr .contact__text {
+    margin-top: 0;
+    max-width: 280px;
+  }
+
+  .contact .about__content .about__descr .contact__socials {
+    margin-bottom: 20px;
+  }
+
+
+  .menu {
+    width: 250px;
+    padding-top: 8px;
+    padding-bottom: 0;
+  }
+
+  .menu .menu__cross {
+    margin-left: 207px;
+  }
+
+  .menu .menu__list {
+    margin-top: 87px;
+  }
+
+  .menu .menu__list .menu__item {
+    margin-left: 47px;
+    padding-left: 9px;
+  }
+
+  .menu .menu__socials {
+    margin-top: 70px;
+  }
+
+}
