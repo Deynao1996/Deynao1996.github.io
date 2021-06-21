@@ -1,0 +1,25 @@
+.carousel {
+  padding: 81px 0;
+  background-color: #ffffff;
+}
+
+/* .carousel__slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel__inner {
+  display: flex;
+  align-items: center;
+  transition: 1s all;
+} */
+
+.carousel .carousel__slider .carousel__wrapper {
+  width: 750px;
+  /* overflow: hidden; */
+}
+
+.carousel .carousel__slider .carousel__arrow {
+  cursor: pointer;
+}
