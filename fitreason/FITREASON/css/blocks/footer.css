@@ -1,0 +1,27 @@
+.footer__wrap {
+  display: grid;
+  grid-template-columns: 1fr 165px;
+  grid-column-gap: 20px;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__list {
+  display: flex;
+}
+.footer__socials {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.socials__item {
+  margin-right: 15px;
+}
+
+  @media (max-width: 580px) {
+    .footer__wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
