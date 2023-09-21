@@ -24,5 +24,5 @@ We appreciate your interest and contributions!
 
 ## License
 
-All projects in this repository are licensed under the [MIT License](https://github.com/Deynao1996/landings/blob/main/license.txt). Please see the [license.txt](https://github.com/Deynao1996/landings/blob/main/license.txt) file for details.
+All projects in this repository are licensed under the [MIT License](https://github.com/Deynao1996/landings/blob/main/LICENSE.txt). Please see the [license.txt](https://github.com/Deynao1996/landings/blob/main/LICENSE.txt) file for details.
 
