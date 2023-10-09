@@ -9,6 +9,7 @@ This repository hosts a collection of web projects, each in production mode. You
 5. [Salon](https://deynao1996.github.io/salon) - A web beauty salon page with services and portfolios.
 6. [Vista Care](https://deynao1996.github.io/vista-care) - Glazing services for balconies, discounts, and promotions.
 7. [Watches](https://deynao1996.github.io/watches) - A smartwatch mobile application for synchronization and management.
+8. [Portfolio](https://deynao1996.github.io/portfolio-template) - A project that offers a portfolio template.
 
 Each project is fully functional and ready for use. Simply click on the links to access the live projects.
 
